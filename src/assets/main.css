@@ -1,0 +1,72 @@
+@import './base.css';
+
+/* MARK: Bootstrap Start */
+.btn-dark {
+  background-color: #242323!important;
+}
+.btn:focus {
+  box-shadow: none!important;
+}
+/* MARK: Bootstrap End */
+* {
+  font-family: 'Titillium Web', sans-serif;
+}
+.form-control {
+  outline: none!important;
+  box-shadow: none!important;
+  border: unset!important;
+}
+/* MARK: Component Style Start */
+#App {
+  width: 100vw;
+  height: 100vh;
+  background-color: #181818;
+}
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+.no-margin {
+  margin: 0;
+}
+.no-padding {
+  padding: 0;
+}
+.no-margin-imp {
+  margin: 0!important;
+}
+.no-padding-imp {
+  padding: 0!important;
+}
+.LoginPanel {
+  /* background-color: #242323; */
+  background: linear-gradient(-45deg, #42b883, #242323);
+  border-radius: 25px;
+  margin-top: 15vh !important;
+}
+.size-web-page {
+  width: 100vw;
+  height: 100vh;
+}
+.align-panel {
+  justify-content: center;
+}
+.login-title {
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+}
+.input-container, .align-label{
+  display: flex;
+  justify-content: center;
+}
+.align-label {
+  align-items: center;
+}
+.buttons-container {
+  display: flex;
+  justify-content: end;
+}
+/* MARK: Component Style End */
